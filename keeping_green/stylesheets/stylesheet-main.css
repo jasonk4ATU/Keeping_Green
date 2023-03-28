@@ -32,6 +32,47 @@
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
 }
 
+/* Style for the gallery container */
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+
+/* Style for the gallery images */
+.gallery img {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  margin: 10px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Hover effect for the gallery images */
+.gallery img:hover {
+  transform: scale(1.05);
+}
+
+/* Style for the top row of images */
+.top-row {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+/* Style for the bottom row of images */
+.bottom-row {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
 .video-logo {
          height: 56px;
          display: flex;
